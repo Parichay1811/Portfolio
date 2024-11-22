@@ -5,9 +5,160 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
     <title>Parichay Dutta Biswas</title>
+    <link rel="icon" href="./assets/Parichay1.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
 
 </head>
 <body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./assets/logo.png" alt="" class="logo">
+                 <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About me</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact</a></li>
+                 </ul>
+            </nav>
+            <div class="header-text">
+                <p>MERN Stack Developer</p>
+                <h1>Hi, <br> I am <span>Parichay</span><br> from India👋🏻</h1>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./assets/side.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me😇</h1>
+                    <p class="pa">My expertise lies in creating full-stack solutions, from designing intuitive front-end interfaces with React.js to developing robust back-end systems with Node.js. With experience in various projects, I am also a java programmer with problem solving skills. I am passionate about delivering high-quality, scalable solutions. I am eager to contribute my skills to innovative teams and build impactful digital experiences.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="slills">
+                        <ul>
+                            <li><span>Programing Languages:</span><br> JavaScript, Java, Python</li>
+                            <li><span>Front-end:</span><br>HTML5, CSS, JavaScript</li>
+                            <li><span>Back-end:</span><br>Node.js</li>
+                            <li><span>Data Management:</span><br>MySql, MongoDB</li>
+                            <li><span>Cloud:</span><br>AWS</li>
+                            <li><span>Tools & Platforms:</span><br>Docker, Git-hub</li>
+                            <li><span>Version Control</span><br>Git</li>
+                            <li><span>Machine Learning</span><br>Applied Machine Learning Algorithms</li>
+                        </ul>
+                    </div>
+                    <!-- --------ex-------- -->
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024 - present</span><br>Student Trainee at Geekster</li>
+                            <li><span>2023 - 2024</span><br>Junior Sofware Engineer(Freelance) at ViralMe. Dublin, Ireland</li>
+                        </ul>
+                    </div>
+                    <!-- ------------------------------- -->
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024 - current</span><br>MERN Stack Development specialisation from Geekster</li>
+                            <li><span>2019 - 2023</span><br>BE from SJB Institute of Technology, Bangalore</li>
+                            <li><span>2017 - 2019</span><br>12th from Jalpaiguri H.S. School</li>
+                            <li><span>2009 - 2017</span><br>10th from Jalpaiguri Zilla School</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------services----------- -->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, inventore.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-codepen"></i>
+                    <h2>Web Development</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, aliquam!</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-mug-saucer"></i>
+                    <h2>Web Development</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur, voluptatem.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+     </div>
+
+     <div id="Projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./assets/P1.png" alt="">
+                    <div class="layer">
+                        <h3>Simple Calculator</h3>
+                        <p>Calculate with ease and style!</p>
+                        <a href="https://parichay1811.github.io/Basic-calculator/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./assets/P2.png" alt="">
+                    <div class="layer">
+                        <h3>Spotify UI Clone</h3>
+                        <p>Jam to the vibes🎧</p>
+                        <a href="https://parichay1811.github.io/Music-App-UI-Clone/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./assets/P3.png" alt="">
+                    <div class="layer">
+                        <h3>Emote-Hub</h3>
+                        <p>Your one-stop emoji haven—explore😉, copy, and express like never before!</p>
+                        <a href="https://parichay1811.github.io/EmoteHub/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./assets/P4.png" alt="">
+                    <div class="layer">
+                        <h3>Leader Board</h3>
+                        <p>Where achievements shine🏆 and top scores take the spotlight</p>
+                        <a href="https://parichay1811.github.io/LeaderBoard/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./assets/P5.png" alt="">
+                    <div class="layer">
+                        <h3>Dad Jokes Generator</h3>
+                        <p>Laughs so bad, they’re dangerously good! 🤣👨‍🦳</p>
+                        <a href="https://parichay1811.github.io/dad-jokes-generator/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./assets/P6.png" alt="">
+                    <div class="layer">
+                        <h3>You Tube UI Clone</h3>
+                        <p>checkout my channel☺️</p>
+                        <a href="https://parichay1811.github.io/Youtube-UI/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">View More</a>
+        </div>
+     </div>
     <script src="./js/script.js"></script>
 </body>
 </html>
