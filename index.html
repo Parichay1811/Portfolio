@@ -14,13 +14,15 @@
         <div class="container">
             <nav>
                 <img src="./assets/logo.png" alt="" class="logo">
-                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About me</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contact</a></li>
+                 <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
                  </ul>
+                 <i class="fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
                 <p>MERN Stack Developer</p>
@@ -83,21 +85,21 @@
             <div class="services-list">
                 <div>
                     <i class="fa-solid fa-code"></i>
-                    <h2>Web Development</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, inventore.</p>
-                    <a href="#">Learn more</a>
+                    <h2>Full Stack Web Development</h2>
+                    <p>Crafting responsive, dynamic websites with modern web technologies.</p>
+                    <a href="#contact">Learn more</a>
                 </div>
                 <div>
-                    <i class="fa-brands fa-codepen"></i>
-                    <h2>Web Development</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, aliquam!</p>
-                    <a href="#">Learn more</a>
+                    <i class="fa-solid fa-gear"></i>
+                    <h2>RESTful API Development</h2>
+                    <p>Design and implement APIs for communication between client and server.</p>
+                    <a href="#contact">Learn more</a>
                 </div>
                 <div>
-                    <i class="fa-solid fa-mug-saucer"></i>
-                    <h2>Web Development</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur, voluptatem.</p>
-                    <a href="#">Learn more</a>
+                    <i class="fa-solid fa-person-chalkboard"></i>
+                    <h2>Tutor</h2>
+                    <p>Empowering others by teaching web development and Programming skills to solve the real world problems.</p>
+                    <a href="#contact">Learn more</a>
                 </div>
             </div>
         </div>
@@ -112,7 +114,7 @@
                     <div class="layer">
                         <h3>Simple Calculator</h3>
                         <p>Calculate with ease and style!</p>
-                        <a href="https://parichay1811.github.io/Basic-calculator/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="https://parichay1811.github.io/Basic-calculator/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="work">
@@ -120,7 +122,7 @@
                     <div class="layer">
                         <h3>Spotify UI Clone</h3>
                         <p>Jam to the vibes🎧</p>
-                        <a href="https://parichay1811.github.io/Music-App-UI-Clone/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="https://parichay1811.github.io/Music-App-UI-Clone/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="work">
@@ -128,7 +130,7 @@
                     <div class="layer">
                         <h3>Emote-Hub</h3>
                         <p>Your one-stop emoji haven—explore😉, copy, and express like never before!</p>
-                        <a href="https://parichay1811.github.io/EmoteHub/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="https://parichay1811.github.io/EmoteHub/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="work">
@@ -136,7 +138,7 @@
                     <div class="layer">
                         <h3>Leader Board</h3>
                         <p>Where achievements shine🏆 and top scores take the spotlight</p>
-                        <a href="https://parichay1811.github.io/LeaderBoard/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="https://parichay1811.github.io/LeaderBoard/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="work">
@@ -144,7 +146,7 @@
                     <div class="layer">
                         <h3>Dad Jokes Generator</h3>
                         <p>Laughs so bad, they’re dangerously good! 🤣👨‍🦳</p>
-                        <a href="https://parichay1811.github.io/dad-jokes-generator/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="https://parichay1811.github.io/dad-jokes-generator/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="work">
@@ -152,13 +154,62 @@
                     <div class="layer">
                         <h3>You Tube UI Clone</h3>
                         <p>checkout my channel☺️</p>
-                        <a href="https://parichay1811.github.io/Youtube-UI/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="https://parichay1811.github.io/Youtube-UI/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
             </div>
             <a href="#" class="btn">View More</a>
         </div>
      </div>
+
+     <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-l">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> parichay.rick18@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +91 7337784453</p>
+                    <div class="socials">
+                        <!-- <a href="#"><i class="fa-brands fa-facebook"></i></a> -->
+                        <a href="https://x.com/parichay1811" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        <!-- <a href="#"><i class="fa-brands fa-instagram"></i></a> -->
+                        <a href="https://www.linkedin.com/in/parichay-dutta-biswas-0a40191b5/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="./assets/Parichay Dutta Biswas.pdf" download="" class="btn btn2" target="_blank">Download CV</a>
+                </div>
+                <div class="contact-r">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Enter your name here" required>
+                        <input type="email" name="Email" placeholder="xyz@example.com" required>
+                        <textarea name="Message" rows="6" placeholder="Write your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="copyright">
+            <p>Copyright © Parichay Dutta Biswas</p>
+        </div>
+     </div>
     <script src="./js/script.js"></script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwAjjirMPleu6QaY-4FzvewbMbtaiX7S2_vbonYurURJPahnSnUAOEm7bIwevsR33wHaw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully!"
+                setTimeout(function(){
+                    msg.innerHTML = "";
+                }, 5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
 </body>
 </html>

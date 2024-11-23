@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     background: black;
     color: white;
@@ -13,7 +16,7 @@ body{
     height: 100vh;
     background-image: url("../assets/bg.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-position: center;
 }
 .container{
@@ -60,12 +63,12 @@ nav ul li a:hover::after{
 }
 .header-text h1{
     margin-top: 20px;
-    font-size: 100px;
+    font-size: 80px;
     /* color: red; */
 }
 .header-text h1 span{
     margin-top: 20px;
-    font-size: 100px;
+    font-size: 80px;
     color: rgb(53, 152, 33);
 }
 #about{
@@ -242,11 +245,155 @@ nav ul li a:hover::after{
     padding: 15px 50px;
     border-radius: 5px;
     text-decoration: none;
-    color: rgb(42, 200, 42);
+    color: rgb(255, 255, 255);
     transition: background 0.9s;
 }
 .btn:hover{
     background: rgb(1, 255, 1);
     color: rgb(49, 50, 50);
 }
+.contact-l{
+    flex-basis: 35%;
+}
+.contact-l p{
+    margin-top: 30px;
+    font-size: 20px;
+    color: hsl(0, 0%, 48%);
+}
+.contact-l p i{
+    color: rgb(36, 138, 36);
+    margin-right: 10px;
+    font-size: 20px;
+}
+.contact-r{
+    flex-basis: 60%;
+}
+.socials{
+    margin-top: 30px;
+    
+}
+.socials a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #5e5e5e;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+.socials a:hover{
+    color: #fff;
+    transform: translateY(-5px);
+}
+.btn.btn2{
+    display: inline-block;
+    background: rgb(14, 80, 14);
+    /* color: #5e5e5e; */
+}
+.contact-r form{
+    width: 100%;
+    margin-top: 30px;
+}
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #222222;
+    padding: 15px;
+    margin: 10px 0;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+}
+form .btn2{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    margin: 5px;
+    /* background: #181818; */
+}
+hr{
+    margin: 10px 100px;
+    border: 0;
+    outline: 0;
+    border: 1px solid #444444;
+}
+
+nav .fa{
+    display: none;
+}
+@media only screen and (max-width: 600px) {
+    #header{
+        background-image: url('../assets/bg_phone.jpg');
+    }
+    .header-text{
+        margin-top: 100%;
+        font-size: small;
+    }
+    .header-text h1{
+        font-size: 30px;
+    }
+    /* .logo{
+        display: none;
+    } */
+    nav .fa-solid{
+        display: block;
+        font-size: 25px;
+    }
+    nav ul{
+        background: rgb(27, 85, 27);
+        position: fixed;
+        top: 0;
+        right:-200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 30px;  
+    }
+    nav ul .fa-solid{
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        cursor: pointer;
+    }
+    .sub-title{
+        font-size: 40px;
+    }
+    .about-col-1, .about-col-2{
+        flex-basis: 100%;
+        margin: 30px;
+    }
+    .about-col-2{
+        font-size: 14px;
+    }
+    .tab-links{
+        font-size: 16px;
+        margin-right: 20px;
+    }
+    .contact-l, .contact-r{
+        flex-basis: 100%;
+    }
+    hr{
+        flex-basis: 100%;
+    }
+    .copyright{
+        font-size: 13px;
+    }
+}
+#msg{
+    color: #1da22b;
+    margin-top: -40px;
+    display: block;
+}
+
 
