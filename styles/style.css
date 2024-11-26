@@ -323,7 +323,16 @@ hr{
     outline: 0;
     border: 1px solid #444444;
 }
+/* #tw{
+    color: white;
+}
+#ld{
+    color: rgb(255, 255, 255);
+}
 
+#yt{
+    color: red;
+} */
 nav .fa{
     display: none;
 }
